@@ -1166,6 +1166,12 @@ pre code {
   border: 1px solid #eee;
   max-width: 120px;
   padding: 2px;
+  border-radius: 50%;
+  transition: 2s all;
+  transition: transform 1s ease-out;
+}
+.site-author-image:hover {
+  transform: rotateZ(360deg);
 }
 .site-author-name {
   color: var(--text-color);
@@ -2265,6 +2271,12 @@ ul.breadcrumb li:last-child {
     width: auto;
   }
 }
+.content-wrap {
+  background: rgba(255,255,255,0.8);
+}
+.header-inner {
+  background: rgba(255,255,255,0.8);
+}
 .column {
   width: 240px;
 }
@@ -2516,4 +2528,11 @@ ul.breadcrumb li:last-child {
   .comments {
     padding: 10px 12px;
   }
+}
+body {
+  background-image: url("/images/background.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
 }
