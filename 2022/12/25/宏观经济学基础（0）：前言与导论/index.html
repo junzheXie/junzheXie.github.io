@@ -20,25 +20,34 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"junzhexie.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.14.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="more is different">
-<meta property="og:type" content="website">
-<meta property="og:title" content="junzheXie.github.io">
-<meta property="og:url" content="https://junzhexie.github.io/index.html">
+    <meta name="description" content="1. 我为什么想要写这个系列1经济学（也可以）是科学。 — 我自己说的  我一直认为,评论社会与政治是一件需要门槛的事情。而现代西方经济学理论就门槛之一。所以，在这个大家只能在屏幕前赛博参与社会活动的特殊时期，我想写一些让大家看完之后除了图一乐，还能留下点东西的文章。再加上我其实一直没有想好在这里长期更新的方向，只好先选一个写着试试。所以第一个长篇连载系列的主题就是我正在复习的，宏观经济学理论。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="宏观经济学基础（0）：前言与导论">
+<meta property="og:url" content="https://junzhexie.github.io/2022/12/25/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%9F%BA%E7%A1%80%EF%BC%880%EF%BC%89%EF%BC%9A%E5%89%8D%E8%A8%80%E4%B8%8E%E5%AF%BC%E8%AE%BA/index.html">
 <meta property="og:site_name" content="junzheXie.github.io">
-<meta property="og:description" content="more is different">
+<meta property="og:description" content="1. 我为什么想要写这个系列1经济学（也可以）是科学。 — 我自己说的  我一直认为,评论社会与政治是一件需要门槛的事情。而现代西方经济学理论就门槛之一。所以，在这个大家只能在屏幕前赛博参与社会活动的特殊时期，我想写一些让大家看完之后除了图一乐，还能留下点东西的文章。再加上我其实一直没有想好在这里长期更新的方向，只好先选一个写着试试。所以第一个长篇连载系列的主题就是我正在复习的，宏观经济学理论。">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://junzhexie.github.io/2022/12/25/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%9F%BA%E7%A1%80%EF%BC%880%EF%BC%89%EF%BC%9A%E5%89%8D%E8%A8%80%E4%B8%8E%E5%AF%BC%E8%AE%BA/2.png">
+<meta property="og:image" content="https://junzhexie.github.io/2022/12/25/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%9F%BA%E7%A1%80%EF%BC%880%EF%BC%89%EF%BC%9A%E5%89%8D%E8%A8%80%E4%B8%8E%E5%AF%BC%E8%AE%BA/3.png">
+<meta property="og:image" content="https://junzhexie.github.io/2022/12/25/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%9F%BA%E7%A1%80%EF%BC%880%EF%BC%89%EF%BC%9A%E5%89%8D%E8%A8%80%E4%B8%8E%E5%AF%BC%E8%AE%BA/4.png">
+<meta property="og:image" content="https://junzhexie.github.io/2022/12/25/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%9F%BA%E7%A1%80%EF%BC%880%EF%BC%89%EF%BC%9A%E5%89%8D%E8%A8%80%E4%B8%8E%E5%AF%BC%E8%AE%BA/5.png">
+<meta property="og:image" content="https://junzhexie.github.io/2022/12/25/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%9F%BA%E7%A1%80%EF%BC%880%EF%BC%89%EF%BC%9A%E5%89%8D%E8%A8%80%E4%B8%8E%E5%AF%BC%E8%AE%BA/1.png">
+<meta property="article:published_time" content="2022-12-25T06:20:36.000Z">
+<meta property="article:modified_time" content="2023-01-06T10:44:36.663Z">
 <meta property="article:author" content="jzxie">
+<meta property="article:tag" content="宏观经济学系列">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://junzhexie.github.io/2022/12/25/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%9F%BA%E7%A1%80%EF%BC%880%EF%BC%89%EF%BC%9A%E5%89%8D%E8%A8%80%E4%B8%8E%E5%AF%BC%E8%AE%BA/2.png">
 
 
-<link rel="canonical" href="https://junzhexie.github.io/">
+<link rel="canonical" href="https://junzhexie.github.io/2022/12/25/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%9F%BA%E7%A1%80%EF%BC%880%EF%BC%89%EF%BC%9A%E5%89%8D%E8%A8%80%E4%B8%8E%E5%AF%BC%E8%AE%BA/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://junzhexie.github.io/2022/12/25/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%9F%BA%E7%A1%80%EF%BC%880%EF%BC%89%EF%BC%9A%E5%89%8D%E8%A8%80%E4%B8%8E%E5%AF%BC%E8%AE%BA/","path":"2022/12/25/宏观经济学基础（0）：前言与导论/","title":"宏观经济学基础（0）：前言与导论"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>junzheXie.github.io</title>
+<title>宏观经济学基础（0）：前言与导论 | junzheXie.github.io</title>
   
 
 
@@ -73,7 +82,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">junzheXie.github.io</h1>
+      <p class="site-title">junzheXie.github.io</p>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">welcome to my blog</p>
@@ -100,7 +109,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -113,6 +122,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E6%83%B3%E8%A6%81%E5%86%99%E8%BF%99%E4%B8%AA%E7%B3%BB%E5%88%97"><span class="nav-number">1.</span> <span class="nav-text">1. 我为什么想要写这个系列</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%EF%BC%9A%E6%88%91%E4%BB%AC%E7%9F%A5%E9%81%93%E4%BB%80%E4%B9%88%EF%BC%8C%E6%88%91%E4%BB%AC%E4%B8%8D%E7%9F%A5%E9%81%93%E4%BB%80%E4%B9%88%EF%BC%9F"><span class="nav-number">2.</span> <span class="nav-text">2. 宏观经济学：我们知道什么，我们不知道什么？</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6"><span class="nav-number">2.1.</span> <span class="nav-text">什么是宏观经济学</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%83%8C%E6%99%AF%E7%9F%A5%E8%AF%86"><span class="nav-number">2.2.</span> <span class="nav-text">背景知识</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%BB%8F%E6%B5%8E%E5%AD%A6%E6%A8%A1%E5%9E%8B"><span class="nav-number">2.2.1.</span> <span class="nav-text">经济学模型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E7%9A%84%E8%AF%84%E4%BB%B7%E6%8C%87%E6%A0%87"><span class="nav-number">2.2.2.</span> <span class="nav-text">宏观经济的评价指标</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%AE%B6%E4%B8%8D%E7%9F%A5%E9%81%93%E4%BB%80%E4%B9%88"><span class="nav-number">2.3.</span> <span class="nav-text">经济学家不知道什么</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="nav-number">3.</span> <span class="nav-text">3. 准备工作</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -156,16 +166,17 @@
 
     </div>
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://junzhexie.github.io/2022/12/25/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%9F%BA%E7%A1%80%EF%BC%880%EF%BC%89%EF%BC%9A%E5%89%8D%E8%A8%80%E4%B8%8E%E5%AF%BC%E8%AE%BA/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -179,13 +190,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | junzheXie.github.io">
+      <meta itemprop="name" content="宏观经济学基础（0）：前言与导论 | junzheXie.github.io">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/12/25/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%9F%BA%E7%A1%80%EF%BC%880%EF%BC%89%EF%BC%9A%E5%89%8D%E8%A8%80%E4%B8%8E%E5%AF%BC%E8%AE%BA/" class="post-title-link" itemprop="url">宏观经济学基础（0）：前言与导论</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          宏观经济学基础（0）：前言与导论
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -215,7 +226,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="1-我为什么想要写这个系列"><a href="#1-我为什么想要写这个系列" class="headerlink" title="1. 我为什么想要写这个系列"></a>1. 我为什么想要写这个系列</h1><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">经济学（也可以）是科学。 — 我自己说的</span><br></pre></td></tr></table></figure>
+        <h1 id="1-我为什么想要写这个系列"><a href="#1-我为什么想要写这个系列" class="headerlink" title="1. 我为什么想要写这个系列"></a>1. 我为什么想要写这个系列</h1><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">经济学（也可以）是科学。 — 我自己说的</span><br></pre></td></tr></table></figure>
 
 <p>我一直认为,评论社会与政治是一件需要门槛的事情。而现代西方经济学理论就门槛之一。所以，在这个大家只能在屏幕前赛博参与社会活动的特殊时期，我想写一些让大家看完之后除了图一乐，还能留下点东西的文章。再加上我其实一直没有想好在这里长期更新的方向，只好先选一个写着试试。所以第一个长篇连载系列的主题就是我正在复习的，宏观经济学理论。</p>
 <h1 id="2-宏观经济学：我们知道什么，我们不知道什么？"><a href="#2-宏观经济学：我们知道什么，我们不知道什么？" class="headerlink" title="2. 宏观经济学：我们知道什么，我们不知道什么？"></a>2. 宏观经济学：我们知道什么，我们不知道什么？</h1><h2 id="什么是宏观经济学"><a href="#什么是宏观经济学" class="headerlink" title="什么是宏观经济学"></a>什么是宏观经济学</h2><p>为什么有些国家穷，有些国家富？</p>
@@ -291,7 +302,6 @@
 
 <p>《宏观经济学（第十版）》，格里高利·曼昆著，中国人民大学出版社。</p>
 
-      
     </div>
 
     
@@ -299,236 +309,21 @@
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
+          <div class="post-tags">
+              <a href="/tags/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%AD%A6%E7%B3%BB%E5%88%97/" rel="tag"># 宏观经济学系列</a>
+          </div>
 
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://junzhexie.github.io/2022/12/19/23%E5%B9%B4%E4%B8%80%E6%9C%88%E6%96%B0%E7%95%AA%E5%89%8D%E7%9E%BB/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar2.png">
-      <meta itemprop="name" content="jzxie">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="junzheXie.github.io">
-      <meta itemprop="description" content="more is different">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | junzheXie.github.io">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/12/19/23%E5%B9%B4%E4%B8%80%E6%9C%88%E6%96%B0%E7%95%AA%E5%89%8D%E7%9E%BB/" class="post-title-link" itemprop="url">23年一月新番前瞻</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2022-12-19 22:51:29" itemprop="dateCreated datePublished" datetime="2022-12-19T22:51:29+08:00">2022-12-19</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://junzhexie.github.io/2022/12/12/0%E6%88%90%E6%9C%AC%E7%94%A8Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar2.png">
-      <meta itemprop="name" content="jzxie">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="junzheXie.github.io">
-      <meta itemprop="description" content="more is different">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | junzheXie.github.io">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/12/12/0%E6%88%90%E6%9C%AC%E7%94%A8Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="post-title-link" itemprop="url">0成本用Hexo+Github搭建个人博客</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2022-12-12 00:13:42 / 修改时间：22:26:09" itemprop="dateCreated datePublished" datetime="2022-12-12T00:13:42+08:00">2022-12-12</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>Hexo是一个基于node.js的博客框架，可以一键部署到coding或GitHub上。Hexo使用markdown解析文章，可以快速生成静态网页，非常的简洁高效。本文记录我自己使用Hexo+Github搭建博客的过程及常见问题。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/12/12/0%E6%88%90%E6%9C%AC%E7%94%A8Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
         
-      
-    </div>
 
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://junzhexie.github.io/2022/12/10/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar2.png">
-      <meta itemprop="name" content="jzxie">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="junzheXie.github.io">
-      <meta itemprop="description" content="more is different">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | junzheXie.github.io">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/12/10/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2022-12-10 19:49:11" itemprop="dateCreated datePublished" datetime="2022-12-10T19:49:11+08:00">2022-12-10</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2022-12-12 22:24:27" itemprop="dateModified" datetime="2022-12-12T22:24:27+08:00">2022-12-12</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2022/12/10/hello-world/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2022/12/19/23%E5%B9%B4%E4%B8%80%E6%9C%88%E6%96%B0%E7%95%AA%E5%89%8D%E7%9E%BB/" rel="prev" title="23年一月新番前瞻">
+                  <i class="fa fa-chevron-left"></i> 23年一月新番前瞻
+                </a>
             </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
@@ -537,6 +332,8 @@
 
 
 
+
+    <div class="comments" id="lv-container" data-id="city" data-uid="MTAyMC81Nzc3Ni8zNDIzOQ=="></div>
 </div>
   </main>
 
